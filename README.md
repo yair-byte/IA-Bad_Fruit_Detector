@@ -9,14 +9,14 @@ Do the same but in the Arduino environment (Arduino IDE) through the manager
 libraries.
 2. Install the PIL and numpy libraries in the Python environment.
 3. Download the provided files, the folder detector_frutas_freertos and the file
-GUI_detector_fruits_v1.2.py
+GUI_detector_frutas_v1.2.py
 4. Open the arduino project (detector_frutas_freertos.ino) and the Python file.
 5. Connect the USB cable from the FTDI programmer to the computer. In the Arduino IDE
 select the AI-Thinker ESP32-CAM board, for which you must have the
 corresponding package.
-6. Connect the Jumper of figure 2 to the microcontroller, then from the arduino IDE
+6. Put the microcontroller in programming mode, then from the arduino IDE
 upload the code to the board.
-7. Disconnect the Jumper and unplug the USB cable.
+7. Put the microcontroller in normal mode and unplug the USB cable.
 8. Plug the USB cable back in. Wait a few seconds for the code to be
 initialize.
 9. Run the Python code, after a few seconds you should see the graphical interface.
